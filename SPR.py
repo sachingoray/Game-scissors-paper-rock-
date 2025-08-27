@@ -4,11 +4,11 @@
 
 import random
 #so this ramdom makes computer/programe to choose  random value
-print("****************************************")
+print("*****************************************************")
 print("lets See who comes to the top   :)")
-print("****************************************")
+print("*****************************************************")
 print("                                        ")
-print("****************************************")
+print("*****************************************************")
 
 
 options = ("rock" , "paper" , "scissors") 
@@ -22,9 +22,11 @@ while running:
 
 	while player not in options:
 		player  = input("Select an option Rock , Paper , Scissors : ").lower()
-	
+	print("*****************************************************")
 	print(f"player: {player}")
 	print(f"computer : {computer}")
+	print(" ")
+
 
 
 
@@ -45,9 +47,13 @@ while running:
 	else:
 		print("sorry, But you lose!!")
 
+	print("*****************************************************")
+
+
 	run = input("press 'q'to quit or press any other key to continue ::").lower()
 
 	if run == "q":
 		break
-
-Print("Thank you for playing game with me")
+print("******************************************************   ")
+print("                                                        " )
+print("Thank you for playing game with me")
